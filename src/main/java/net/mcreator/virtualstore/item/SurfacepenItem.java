@@ -18,11 +18,11 @@ import net.mcreator.virtualstore.VirtualstoreModElements;
 import java.util.List;
 
 @VirtualstoreModElements.ModElement.Tag
-public class SurfacepenItem extends VirtualstoreModElements.ModElement {
-	@ObjectHolder("virtualstore:surfacepen")
+public class SurfacePenItem extends VirtualstoreModElements.ModElement {
+	@ObjectHolder("virtualstore:surface_pen")
 	public static final Item block = null;
-	public SurfacepenItem(VirtualstoreModElements instance) {
-		super(instance, 6);
+	public SurfacePenItem(VirtualstoreModElements instance) {
+		super(instance, 7);
 	}
 
 	@Override
@@ -32,7 +32,7 @@ public class SurfacepenItem extends VirtualstoreModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("surfacepen");
+			setRegistryName("surface_pen");
 		}
 
 		@Override

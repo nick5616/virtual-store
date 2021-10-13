@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "surface_pen",
+    "texture": "imageonline-co-whitebackgroundremoved",
     "customModelName": "Normal",
-    "name": "Surfacepen",
+    "name": "Surface Pen",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"

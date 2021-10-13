@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\main",
+    "\\src\\main\\java",
+    "\\src\\main\\java\\net\\mcreator",
+    "\\src\\main\\java\\net\\mcreator\\virtualstore",
+    "\\src\\main\\resources",
+    "\\src\\main\\resources\\assets",
+    "\\src\\main\\resources\\assets\\virtualstore",
+    "\\src\\main\\resources\\assets\\virtualstore\\lang"
+  ],
+  "SelectedNode": "\\virtualstore.mcreator",
+  "PreviewInSolutionExplorer": false
+}
