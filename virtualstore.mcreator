@@ -11,71 +11,49 @@
       "registry_name": "microsoft_badge"
     },
     {
-      "name": "Inventory",
-      "type": "command",
+      "name": "SurfaceStudioPromo",
+      "type": "painting",
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "inventory"
+      "registry_name": "surface_studio_promo"
     },
     {
-      "name": "CartCommandExecuted",
-      "type": "procedure",
+      "name": "MicrosoftBanner",
+      "type": "painting",
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cart_command_executed",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
+      "registry_name": "microsoft_banner"
     },
     {
-      "name": "Cart",
-      "type": "command",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cart"
-    },
-    {
-      "name": "MicrosoftMice",
+      "name": "SurfaceLaptop",
       "type": "item",
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "microsoft_mice"
+      "registry_name": "surface_laptop"
     },
     {
-      "name": "MicrosoftKeyboard",
+      "name": "MicrosoftSteve",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_steve"
+    },
+    {
+      "name": "Xboxone",
       "type": "item",
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "microsoft_keyboard"
-    },
-    {
-      "name": "MicorosoftHeadphones",
-      "type": "item",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "micorosoft_headphones"
-    },
-    {
-      "name": "SurfacePen",
-      "type": "item",
-      "registry_name": "surfacepen"
+      "registry_name": "xboxone"
     },
     {
       "name": "MschatCommandExecuted",
@@ -84,7 +62,6 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "surface_pen"
       "registry_name": "mschat_command_executed",
       "metadata": {
         "dependencies": [
@@ -110,10 +87,10 @@
   "language_map": {
     "en_us": {
       "item.virtualstore.microsoft_badge": "Microsoft Badge",
-      "item.virtualstore.micorosoft_headphones": "Micorosoft Headphones",
-      "item.virtualstore.microsoft_keyboard": "Microsoft Keyboard",
-      "item.virtualstore.surface_pen": "Surface Pen",
-      "item.virtualstore.microsoft_mice": "Microsoft Mice"
+      "entity.virtualstore.microsoft_steve": "Microsoft Steve",
+      "item.virtualstore.xboxone": "Xboxone",
+      "item.virtualstore.surface_laptop": "Surface Laptop",
+      "item.virtualstore.microsoft_steve_spawn_egg": "Microsoft Steve Spawn Egg"
     }
   },
   "foldersRoot": {

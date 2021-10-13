@@ -16,8 +16,7 @@ public class MschatCommandExecutedProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		String joinParams = String.join(" ", ((HashMap) dependencies.get("cmdparams")).values());
-		if (joinParams.toLowerCase().contains("tell me about xbox")) {
-			VirtualstoreMod.LOGGER.info("Tell argument sent");
+		if (joinParams.toLowerCase().contains("xbox")) {
 			{
 				Entity _ent = entity;
 				if (!_ent.world.isRemote && _ent.world.getServer() != null) {

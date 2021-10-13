@@ -1,7 +1,7 @@
 {
   "item.virtualstore.microsoft_badge": "Microsoft Badge",
-  "item.virtualstore.micorosoft_headphones": "Micorosoft Headphones",
-  "item.virtualstore.microsoft_keyboard": "Microsoft Keyboard",
-  "item.virtualstore.surface_pen": "Surface Pen",
-  "item.virtualstore.microsoft_mice": "Microsoft Mice"
+  "entity.virtualstore.microsoft_steve": "Microsoft Steve",
+  "item.virtualstore.xboxone": "Xboxone",
+  "item.virtualstore.surface_laptop": "Surface Laptop",
+  "item.virtualstore.microsoft_steve_spawn_egg": "Microsoft Steve Spawn Egg"
 }
