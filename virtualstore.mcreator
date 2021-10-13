@@ -75,11 +75,38 @@
     {
       "name": "SurfacePen",
       "type": "item",
+      "registry_name": "surfacepen"
+    },
+    {
+      "name": "MschatCommandExecuted",
+      "type": "procedure",
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "surface_pen"
+      "registry_name": "mschat_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mschat",
+      "type": "command",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mschat"
     }
   ],
   "variable_elements": [],
