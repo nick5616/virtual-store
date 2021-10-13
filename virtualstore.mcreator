@@ -1,6 +1,42 @@
 {
   "id_map": {},
   "mod_elements": [
+        {
+      "name": "MicrosoftBadge",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_badge"
+    },
+    {
+      "name": "SurfaceStudioPromo",
+      "type": "painting",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "surface_studio_promo"
+    },
+    {
+      "name": "MicrosoftBanner",
+      "type": "painting",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_banner"
+    },
+    {
+      "name": "SurfaceLaptop",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "surface_laptop"
+    },
     {
       "name": "MicrosoftSteve",
       "type": "livingentity",
@@ -15,6 +51,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.virtualstore.microsoft_badge": "Microsoft Badge",
+      "item.virtualstore.surface_laptop": "Surface Laptop",
       "entity.virtualstore.microsoft_steve": "Microsoft Steve",
       "item.virtualstore.microsoft_steve_spawn_egg": "Microsoft Steve Spawn Egg"
     }
