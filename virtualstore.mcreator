@@ -45,6 +45,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "microsoft_steve"
+    },
+    {
+      "name": "Xboxone",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xboxone"
+    },
+    {
+      "name": "Surfacepen",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "surfacepen"
     }
   ],
   "variable_elements": [],
@@ -52,8 +70,10 @@
   "language_map": {
     "en_us": {
       "item.virtualstore.microsoft_badge": "Microsoft Badge",
-      "item.virtualstore.surface_laptop": "Surface Laptop",
       "entity.virtualstore.microsoft_steve": "Microsoft Steve",
+      "item.virtualstore.surfacepen": "Surfacepen",
+      "item.virtualstore.xboxone": "Xboxone",
+      "item.virtualstore.surface_laptop": "Surface Laptop",
       "item.virtualstore.microsoft_steve_spawn_egg": "Microsoft Steve Spawn Egg"
     }
   },
