@@ -1,7 +1,5 @@
 package net.mcreator.virtualstore.procedures;
 
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.virtualstore.VirtualstoreMod;
@@ -31,9 +29,30 @@ public class MschatCommandExecutedProcedure {
 				}
 				return "";
 			}
-		}.getText())).equals("Hello"))) {
-			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("Hi"), (false));
+		}.getText())).equals("Tell"))) {
+			VirtualstoreMod.LOGGER.info("Tell argument sent");
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+					_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+							"/tellraw @a {\"text\":\"The Xbox is the best gaming console!\\nAny other questions?\"}");
+				}
+			}
+		} else if ((((new Object() {
+			public String getText() {
+				String param = (String) cmdparams.get("0");
+				if (param != null) {
+					return param;
+				}
+				return "";
+			}
+		}.getText())).equals("How"))) {
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+					_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+							"/tellraw @a {\"text\":\"Starts at $1,099, go to ms.com to customize yours!\"}");
+				}
 			}
 		}
 	}
