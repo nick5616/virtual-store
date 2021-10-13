@@ -2,9 +2,9 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "MicrosoftBadge",
-      "type": "item",
-      "sortid": 1,
+      "name": "MicrosoftSteve",
+      "type": "livingentity",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -36,6 +36,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "surface_laptop"
+      "registry_name": "microsoft_steve"
     }
   ],
   "variable_elements": [],
@@ -44,6 +45,8 @@
     "en_us": {
       "item.virtualstore.microsoft_badge": "Microsoft Badge",
       "item.virtualstore.surface_laptop": "Surface Laptop"
+      "entity.virtualstore.microsoft_steve": "Microsoft Steve",
+      "item.virtualstore.microsoft_steve_spawn_egg": "Microsoft Steve Spawn Egg"
     }
   },
   "foldersRoot": {
