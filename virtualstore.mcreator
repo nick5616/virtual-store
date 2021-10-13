@@ -13,6 +13,8 @@
     {
       "name": "Inventory",
       "type": "command",
+      "name": "SurfaceStudioPromo",
+      "type": "painting",
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
@@ -22,6 +24,11 @@
     {
       "name": "CartCommandExecuted",
       "type": "procedure",
+      "registry_name": "surface_studio_promo"
+    },
+    {
+      "name": "MicrosoftBanner",
+      "type": "painting",
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
@@ -47,6 +54,10 @@
     },
     {
       "name": "MicrosoftMice",
+      "registry_name": "microsoft_banner"
+    },
+    {
+      "name": "SurfaceLaptop",
       "type": "item",
       "sortid": 4,
       "compiles": true,
@@ -56,6 +67,19 @@
     },
     {
       "name": "MicrosoftKeyboard",
+      "registry_name": "surface_laptop"
+    },
+    {
+      "name": "MicrosoftSteve",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_steve"
+    },
+    {
+      "name": "Xboxone",
       "type": "item",
       "sortid": 5,
       "compiles": true,
@@ -65,12 +89,17 @@
     },
     {
       "name": "MicorosoftHeadphones",
+      "registry_name": "xboxone"
+    },
+    {
+      "name": "Surfacepen",
       "type": "item",
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "micorosoft_headphones"
+      "registry_name": "surfacepen"
     }
   ],
   "variable_elements": [],
@@ -81,6 +110,11 @@
       "item.virtualstore.micorosoft_headphones": "Micorosoft Headphones",
       "item.virtualstore.microsoft_keyboard": "Microsoft Keyboard",
       "item.virtualstore.microsoft_mice": "Microsoft Mice"
+      "entity.virtualstore.microsoft_steve": "Microsoft Steve",
+      "item.virtualstore.surfacepen": "Surfacepen",
+      "item.virtualstore.xboxone": "Xboxone",
+      "item.virtualstore.surface_laptop": "Surface Laptop",
+      "item.virtualstore.microsoft_steve_spawn_egg": "Microsoft Steve Spawn Egg"
     }
   },
   "foldersRoot": {
