@@ -9,13 +9,78 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "microsoft_badge"
+    },
+    {
+      "name": "Inventory",
+      "type": "command",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inventory"
+    },
+    {
+      "name": "CartCommandExecuted",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cart_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cart",
+      "type": "command",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cart"
+    },
+    {
+      "name": "MicrosoftMice",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_mice"
+    },
+    {
+      "name": "MicrosoftKeyboard",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_keyboard"
+    },
+    {
+      "name": "MicorosoftHeadphones",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "micorosoft_headphones"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.virtualstore.microsoft_badge": "Microsoft Badge"
+      "item.virtualstore.microsoft_badge": "Microsoft Badge",
+      "item.virtualstore.micorosoft_headphones": "Micorosoft Headphones",
+      "item.virtualstore.microsoft_keyboard": "Microsoft Keyboard",
+      "item.virtualstore.microsoft_mice": "Microsoft Mice"
     }
   },
   "foldersRoot": {
