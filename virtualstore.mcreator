@@ -14,7 +14,7 @@
       "name": "Xboxone",
       "type": "item",
       "sortid": 5,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "xboxone"
@@ -86,7 +86,7 @@
       "name": "MicrosoftKeyboard",
       "type": "item",
       "sortid": 5,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "microsoft_keyboard"
@@ -125,7 +125,7 @@
       "name": "MicrosoftMice",
       "type": "item",
       "sortid": 4,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "microsoft_mice"
@@ -134,7 +134,7 @@
       "name": "MicorosoftHeadphones",
       "type": "item",
       "sortid": 6,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "micorosoft_headphones"
@@ -143,8 +143,8 @@
       "name": "Surfacepen",
       "type": "item",
       "sortid": 7,
-      "compiles": false,
-      "locked_code": false,
+      "compiles": true,
+      "locked_code": true,
       "ids": {},
       "registry_name": "surfacepen"
     },
@@ -152,7 +152,7 @@
       "name": "Inventory",
       "type": "command",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "inventory"
@@ -161,28 +161,19 @@
       "name": "Cart",
       "type": "command",
       "sortid": 3,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "cart"
     },
     {
-      "name": "GiftCard",
+      "name": "WindowsKey",
       "type": "item",
-      "sortid": 5,
-      "compiles": false,
+      "sortid": 12,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gift_card"
-    },
-    {
-      "name": "M365Key",
-      "type": "item",
-      "sortid": 14,
-      "compiles": false,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "m_365_key"
+      "registry_name": "windows_key"
     },
     {
       "name": "MicrosoftBanner",
@@ -194,22 +185,31 @@
       "registry_name": "microsoft_banner"
     },
     {
+      "name": "M365Key",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "m_365_key"
+    },
+    {
       "name": "SurfaceLaptop",
       "type": "item",
       "sortid": 15,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "surface_laptop"
     },
     {
-      "name": "WindowsKey",
+      "name": "GiftCard",
       "type": "item",
-      "sortid": 12,
-      "compiles": false,
+      "sortid": 5,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "windows_key"
+      "registry_name": "gift_card"
     }
   ],
   "variable_elements": [],
@@ -218,10 +218,12 @@
     "en_us": {
       "item.virtualstore.microsoft_badge": "Microsoft Badge",
       "entity.virtualstore.microsoft_steve": "Microsoft Steve",
-      "item.virtualstore.surfacepen": "Surfacepen",
       "item.virtualstore.surface_laptop": "Surface Laptop",
+      "item.virtualstore.m_365_key": "M 3 6 5 Key",
+      "item.virtualstore.gift_card": "Gift Card",
       "item.virtualstore.xboxpass": "Xboxpass",
-      "item.virtualstore.microsoft_mice": "Microsoft Mice"
+      "item.virtualstore.microsoft_mice": "Microsoft Mice",
+      "item.virtualstore.windows_key": "Windows Key"
     }
   },
   "foldersRoot": {
