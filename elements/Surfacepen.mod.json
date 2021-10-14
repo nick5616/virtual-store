@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "surface_laptop",
+    "texture": "imageonline-co-whitebackgroundremoved",
     "customModelName": "Normal",
-    "name": "Surface Laptop",
+    "name": "Surfacepen",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
@@ -24,7 +24,9 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "Microsoft Surface Pen"
+    ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

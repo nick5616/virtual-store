@@ -11,31 +11,13 @@
       "registry_name": "microsoft_badge"
     },
     {
-      "name": "SurfaceStudioPromo",
-      "type": "painting",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "surface_studio_promo"
-    },
-    {
-      "name": "MicrosoftBanner",
-      "type": "painting",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "microsoft_banner"
-    },
-    {
-      "name": "SurfaceLaptop",
+      "name": "Xboxone",
       "type": "item",
-      "sortid": 4,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "surface_laptop"
+      "registry_name": "xboxone"
     },
     {
       "name": "Windows11",
@@ -47,15 +29,6 @@
       "registry_name": "windows_11"
     },
     {
-      "name": "XboxScreen",
-      "type": "painting",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "xbox_screen"
-    },
-    {
       "name": "MicrosoftSurfaceAd",
       "type": "painting",
       "sortid": 7,
@@ -63,15 +36,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "microsoft_surface_ad"
-    },
-    {
-      "name": "Office365",
-      "type": "painting",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "office_365"
     },
     {
       "name": "Windows11Desk",
@@ -83,13 +47,22 @@
       "registry_name": "windows_11_desk"
     },
     {
-      "name": "Office365Cloud",
+      "name": "XboxScreen",
       "type": "painting",
-      "sortid": 10,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "office_365_cloud"
+      "registry_name": "xbox_screen"
+    },
+    {
+      "name": "Office365",
+      "type": "painting",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "office_365"
     },
     {
       "name": "Office365Ad",
@@ -99,6 +72,95 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "office_365_ad"
+    },
+    {
+      "name": "Office365Cloud",
+      "type": "painting",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "office_365_cloud"
+    },
+    {
+      "name": "MicrosoftKeyboard",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_keyboard"
+    },
+    {
+      "name": "Xboxpass",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xboxpass"
+    },
+    {
+      "name": "CartCommandExecuted",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cart_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MicrosoftMice",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_mice"
+    },
+    {
+      "name": "MicorosoftHeadphones",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "micorosoft_headphones"
+    },
+    {
+      "name": "Surfacepen",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "surfacepen"
+    },
+    {
+      "name": "Inventory",
+      "type": "command",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inventory"
+    },
+    {
+      "name": "Cart",
+      "type": "command",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cart"
     }
   ],
   "variable_elements": [],
@@ -106,6 +168,7 @@
   "language_map": {
     "en_us": {
       "item.virtualstore.microsoft_badge": "Microsoft Badge",
+      "item.virtualstore.xboxone": "Xboxone",
       "item.virtualstore.surface_laptop": "Surface Laptop"
     }
   },

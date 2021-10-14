@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "xbox_one",
+    "texture": "xbox",
     "customModelName": "Normal",
-    "name": "Xboxone",
+    "name": "Xboxpass",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "xboc console"
+      "xbox subscription"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

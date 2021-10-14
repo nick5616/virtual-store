@@ -2,13 +2,13 @@
 package net.mcreator.virtualstore.item;
 
 @VirtualstoreModElements.ModElement.Tag
-public class XboxoneItem extends VirtualstoreModElements.ModElement {
+public class XboxpassItem extends VirtualstoreModElements.ModElement {
 
-	@ObjectHolder("virtualstore:xboxone")
+	@ObjectHolder("virtualstore:xboxpass")
 	public static final Item block = null;
 
-	public XboxoneItem(VirtualstoreModElements instance) {
-		super(instance, 5);
+	public XboxpassItem(VirtualstoreModElements instance) {
+		super(instance, 9);
 
 	}
 
@@ -21,7 +21,7 @@ public class XboxoneItem extends VirtualstoreModElements.ModElement {
 
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("xboxone");
+			setRegistryName("xboxpass");
 		}
 
 		@Override
@@ -42,7 +42,7 @@ public class XboxoneItem extends VirtualstoreModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("xboc console"));
+			list.add(new StringTextComponent("xbox subscription"));
 		}
 
 	}
