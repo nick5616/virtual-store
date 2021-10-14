@@ -45,6 +45,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "microsoft_steve"
+    },
+    {
+      "name": "GiftCard",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gift_card"
     }
   ],
   "variable_elements": [],
@@ -52,9 +61,10 @@
   "language_map": {
     "en_us": {
       "item.virtualstore.microsoft_badge": "Microsoft Badge",
-      "item.virtualstore.surface_laptop": "Surface Laptop",
       "entity.virtualstore.microsoft_steve": "Microsoft Steve",
-      "item.virtualstore.microsoft_steve_spawn_egg": "Microsoft Steve Spawn Egg"
+      "item.virtualstore.surface_laptop": "Surface Laptop",
+      "item.virtualstore.microsoft_steve_spawn_egg": "Microsoft Steve Spawn Egg",
+      "item.virtualstore.gift_card": "Gift Card"
     }
   },
   "foldersRoot": {
