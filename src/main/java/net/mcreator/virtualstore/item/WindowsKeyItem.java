@@ -3,26 +3,20 @@ package net.mcreator.virtualstore.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
-import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.virtualstore.VirtualstoreModElements;
 
-import java.util.List;
-
 @VirtualstoreModElements.ModElement.Tag
-public class XboxoneItem extends VirtualstoreModElements.ModElement {
-	@ObjectHolder("virtualstore:xboxone")
+public class WindowsKeyItem extends VirtualstoreModElements.ModElement {
+	@ObjectHolder("virtualstore:windows_key")
 	public static final Item block = null;
-	public XboxoneItem(VirtualstoreModElements instance) {
-		super(instance, 5);
+	public WindowsKeyItem(VirtualstoreModElements instance) {
+		super(instance, 12);
 	}
 
 	@Override
@@ -32,7 +26,7 @@ public class XboxoneItem extends VirtualstoreModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("xboxone");
+			setRegistryName("windows_key");
 		}
 
 		@Override
@@ -48,12 +42,6 @@ public class XboxoneItem extends VirtualstoreModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
-		}
-
-		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("xboc console"));
 		}
 	}
 }

@@ -113,6 +113,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -161,6 +165,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cart"
+    },
+    {
+      "name": "WindowsKey",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "windows_key"
     }
   ],
   "variable_elements": [],
@@ -174,7 +187,8 @@
       "item.virtualstore.microsoft_keyboard": "Microsoft Keyboard",
       "item.virtualstore.surface_laptop": "Surface Laptop",
       "item.virtualstore.xboxpass": "Xboxpass",
-      "item.virtualstore.microsoft_mice": "Microsoft Mice"
+      "item.virtualstore.microsoft_mice": "Microsoft Mice",
+      "item.virtualstore.windows_key": "Windows Key"
     }
   },
   "foldersRoot": {
