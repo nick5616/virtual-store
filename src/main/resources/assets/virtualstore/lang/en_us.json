@@ -1,11 +1,9 @@
 {
   "item.virtualstore.microsoft_badge": "Microsoft Badge",
-  "item.virtualstore.surfacepen": "Surfacepen",
-  "item.virtualstore.xboxone": "Xboxone",
-  "item.virtualstore.micorosoft_headphones": "Micorosoft Headphones",
-  "item.virtualstore.microsoft_keyboard": "Microsoft Keyboard",
+  "entity.virtualstore.microsoft_steve": "Microsoft Steve",
   "item.virtualstore.surface_laptop": "Surface Laptop",
   "item.virtualstore.m_365_key": "M 3 6 5 Key",
+  "item.virtualstore.gift_card": "Gift Card",
   "item.virtualstore.xboxpass": "Xboxpass",
   "item.virtualstore.microsoft_mice": "Microsoft Mice",
   "item.virtualstore.windows_key": "Windows Key"
