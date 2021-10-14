@@ -183,6 +183,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "windows_key"
+    },
+    {
+      "name": "MicrosoftBanner",
+      "type": "painting",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_banner"
+    },
+    {
+      "name": "M365Key",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "m_365_key"
+    },
+    {
+      "name": "SurfaceLaptop",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "surface_laptop"
     }
   ],
   "variable_elements": [],
@@ -192,8 +219,11 @@
       "item.virtualstore.microsoft_badge": "Microsoft Badge",
       "entity.virtualstore.microsoft_steve": "Microsoft Steve",
       "item.virtualstore.surface_laptop": "Surface Laptop",
-      "item.virtualstore.microsoft_steve_spawn_egg": "Microsoft Steve Spawn Egg",
-      "item.virtualstore.gift_card": "Gift Card"
+      "item.virtualstore.gift_card": "Gift Card",
+      "item.virtualstore.m_365_key": "M 3 6 5 Key",
+      "item.virtualstore.xboxpass": "Xboxpass",
+      "item.virtualstore.microsoft_mice": "Microsoft Mice",
+      "item.virtualstore.windows_key": "Windows Key"
     }
   },
   "foldersRoot": {
