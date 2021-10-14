@@ -14,7 +14,7 @@
       "name": "Xboxone",
       "type": "item",
       "sortid": 5,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "xboxone"
@@ -32,7 +32,7 @@
       "name": "MicrosoftSurfaceAd",
       "type": "painting",
       "sortid": 7,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "microsoft_surface_ad"
@@ -41,7 +41,7 @@
       "name": "Windows11Desk",
       "type": "painting",
       "sortid": 9,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "windows_11_desk"
@@ -59,7 +59,7 @@
       "name": "Office365",
       "type": "painting",
       "sortid": 8,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "office_365"
@@ -68,7 +68,7 @@
       "name": "Office365Ad",
       "type": "painting",
       "sortid": 11,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "office_365_ad"
@@ -77,7 +77,7 @@
       "name": "Office365Cloud",
       "type": "painting",
       "sortid": 10,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "office_365_cloud"
@@ -95,7 +95,7 @@
       "name": "Xboxpass",
       "type": "item",
       "sortid": 9,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "xboxpass"
@@ -125,7 +125,7 @@
       "name": "MicrosoftMice",
       "type": "item",
       "sortid": 4,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "microsoft_mice"
@@ -134,7 +134,7 @@
       "name": "MicorosoftHeadphones",
       "type": "item",
       "sortid": 6,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "micorosoft_headphones"
@@ -143,7 +143,7 @@
       "name": "Surfacepen",
       "type": "item",
       "sortid": 7,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "surfacepen"
@@ -152,7 +152,7 @@
       "name": "Inventory",
       "type": "command",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "inventory"
@@ -165,6 +165,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cart"
+    },
+    {
+      "name": "GiftCard",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gift_card"
+    },
+    {
+      "name": "M365Key",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "m_365_key"
+    },
+    {
+      "name": "MicrosoftBanner",
+      "type": "painting",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_banner"
+    },
+    {
+      "name": "SurfaceLaptop",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "surface_laptop"
+    },
+    {
+      "name": "WindowsKey",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "windows_key"
     }
   ],
   "variable_elements": [],
@@ -172,8 +217,11 @@
   "language_map": {
     "en_us": {
       "item.virtualstore.microsoft_badge": "Microsoft Badge",
-      "item.virtualstore.xboxone": "Xboxone",
-      "item.virtualstore.surface_laptop": "Surface Laptop"
+      "entity.virtualstore.microsoft_steve": "Microsoft Steve",
+      "item.virtualstore.surfacepen": "Surfacepen",
+      "item.virtualstore.surface_laptop": "Surface Laptop",
+      "item.virtualstore.xboxpass": "Xboxpass",
+      "item.virtualstore.microsoft_mice": "Microsoft Mice"
     }
   },
   "foldersRoot": {

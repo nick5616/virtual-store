@@ -1,5 +1,8 @@
 {
   "item.virtualstore.microsoft_badge": "Microsoft Badge",
-  "item.virtualstore.xboxone": "Xboxone",
-  "item.virtualstore.surface_laptop": "Surface Laptop"
+  "entity.virtualstore.microsoft_steve": "Microsoft Steve",
+  "item.virtualstore.surfacepen": "Surfacepen",
+  "item.virtualstore.surface_laptop": "Surface Laptop",
+  "item.virtualstore.xboxpass": "Xboxpass",
+  "item.virtualstore.microsoft_mice": "Microsoft Mice"
 }
