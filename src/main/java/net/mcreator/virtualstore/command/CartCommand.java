@@ -49,6 +49,7 @@ public class CartCommand {
 		{
 			Map<String, Object> $_dependencies = new HashMap<>();
 			$_dependencies.put("entity", entity);
+			$_dependencies.put("world", world);
 			CartCommandExecutedProcedure.executeProcedure($_dependencies);
 		}
 		return 0;

@@ -22,7 +22,7 @@ public class XboxoneItem extends VirtualstoreModElements.ModElement {
 	@ObjectHolder("virtualstore:xboxone")
 	public static final Item block = null;
 	public XboxoneItem(VirtualstoreModElements instance) {
-		super(instance, 5);
+		super(instance, 8);
 	}
 
 	@Override
@@ -53,7 +53,7 @@ public class XboxoneItem extends VirtualstoreModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("xbox console"));
+			list.add(new StringTextComponent("xboc console"));
 		}
 	}
 }

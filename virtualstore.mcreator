@@ -11,42 +11,6 @@
       "registry_name": "microsoft_badge"
     },
     {
-      "name": "SurfaceStudioPromo",
-      "type": "painting",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "surface_studio_promo"
-    },
-    {
-      "name": "MicrosoftBanner",
-      "type": "painting",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "microsoft_banner"
-    },
-    {
-      "name": "SurfaceLaptop",
-      "type": "item",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "surface_laptop"
-    },
-    {
-      "name": "MicrosoftSteve",
-      "type": "livingentity",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "microsoft_steve"
-    },
-    {
       "name": "Xboxone",
       "type": "item",
       "sortid": 5,
@@ -56,13 +20,94 @@
       "registry_name": "xboxone"
     },
     {
-      "name": "MschatCommandExecuted",
-      "type": "procedure",
+      "name": "Windows11",
+      "type": "painting",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "windows_11"
+    },
+    {
+      "name": "MicrosoftSurfaceAd",
+      "type": "painting",
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mschat_command_executed",
+      "registry_name": "microsoft_surface_ad"
+    },
+    {
+      "name": "Windows11Desk",
+      "type": "painting",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "windows_11_desk"
+    },
+    {
+      "name": "XboxScreen",
+      "type": "painting",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xbox_screen"
+    },
+    {
+      "name": "Office365",
+      "type": "painting",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "office_365"
+    },
+    {
+      "name": "Office365Ad",
+      "type": "painting",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "office_365_ad"
+    },
+    {
+      "name": "Office365Cloud",
+      "type": "painting",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "office_365_cloud"
+    },
+    {
+      "name": "MicrosoftKeyboard",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_keyboard"
+    },
+    {
+      "name": "Xboxpass",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xboxpass"
+    },
+    {
+      "name": "CartCommandExecuted",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cart_command_executed",
       "metadata": {
         "dependencies": [
           {
@@ -73,13 +118,49 @@
       }
     },
     {
-      "name": "Mschat",
-      "type": "command",
+      "name": "MicrosoftMice",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_mice"
+    },
+    {
+      "name": "MicorosoftHeadphones",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "micorosoft_headphones"
+    },
+    {
+      "name": "Surfacepen",
+      "type": "item",
       "sortid": 7,
       "compiles": true,
       "locked_code": true,
       "ids": {},
-      "registry_name": "mschat"
+      "registry_name": "surfacepen"
+    },
+    {
+      "name": "Inventory",
+      "type": "command",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inventory"
+    },
+    {
+      "name": "Cart",
+      "type": "command",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cart"
     }
   ],
   "variable_elements": [],
@@ -87,10 +168,13 @@
   "language_map": {
     "en_us": {
       "item.virtualstore.microsoft_badge": "Microsoft Badge",
-      "entity.virtualstore.microsoft_steve": "Microsoft Steve",
+      "item.virtualstore.surfacepen": "Surfacepen",
       "item.virtualstore.xboxone": "Xboxone",
+      "item.virtualstore.micorosoft_headphones": "Micorosoft Headphones",
+      "item.virtualstore.microsoft_keyboard": "Microsoft Keyboard",
       "item.virtualstore.surface_laptop": "Surface Laptop",
-      "item.virtualstore.microsoft_steve_spawn_egg": "Microsoft Steve Spawn Egg"
+      "item.virtualstore.xboxpass": "Xboxpass",
+      "item.virtualstore.microsoft_mice": "Microsoft Mice"
     }
   },
   "foldersRoot": {
