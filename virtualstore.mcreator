@@ -140,6 +140,15 @@
       "registry_name": "micorosoft_headphones"
     },
     {
+      "name": "Surfacepen",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "surfacepen"
+    },
+    {
       "name": "Inventory",
       "type": "command",
       "sortid": 2,
@@ -194,15 +203,6 @@
       "registry_name": "surface_laptop"
     },
     {
-      "name": "GiftCard",
-      "type": "item",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "gift_card"
-    },
-    {
       "name": "MschatCommandExecuted",
       "type": "procedure",
       "sortid": 7,
@@ -220,13 +220,13 @@
       }
     },
     {
-      "name": "Surfacepen",
+      "name": "GiftCard",
       "type": "item",
-      "sortid": 16,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "surfacepen"
+      "registry_name": "gift_card"
     }
   ],
   "variable_elements": [],
