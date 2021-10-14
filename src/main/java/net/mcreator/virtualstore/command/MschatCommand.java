@@ -27,6 +27,8 @@ public class MschatCommand {
 	public static void registerCommands(RegisterCommandsEvent event) {
 		event.getDispatcher()
 				.register(LiteralArgumentBuilder.<CommandSource>literal("mschat")
+						.then(LiteralArgumentBuilder.<CommandSource>literal("xbox").executes(MschatCommand::execute))
+						.then(LiteralArgumentBuilder.<CommandSource>literal("surface").executes(MschatCommand::execute))
 						.then(Commands.argument("arguments", StringArgumentType.greedyString()).executes(MschatCommand::execute))
 						.executes(MschatCommand::execute));
 	}
@@ -50,6 +52,7 @@ public class MschatCommand {
 			Map<String, Object> $_dependencies = new HashMap<>();
 			$_dependencies.put("entity", entity);
 			$_dependencies.put("cmdparams", cmdparams);
+			$_dependencies.put("messageparams", String.join(" ",cmdparams.values()));
 			MschatCommandExecutedProcedure.executeProcedure($_dependencies);
 		}
 		return 0;

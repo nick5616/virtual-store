@@ -77,7 +77,7 @@
       "type": "command",
       "sortid": 7,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "mschat"
     }
