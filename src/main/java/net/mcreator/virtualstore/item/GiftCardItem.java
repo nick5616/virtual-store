@@ -2,13 +2,13 @@
 package net.mcreator.virtualstore.item;
 
 @VirtualstoreModElements.ModElement.Tag
-public class MicorosoftHeadphonesItem extends VirtualstoreModElements.ModElement {
+public class GiftCardItem extends VirtualstoreModElements.ModElement {
 
-	@ObjectHolder("virtualstore:micorosoft_headphones")
+	@ObjectHolder("virtualstore:gift_card")
 	public static final Item block = null;
 
-	public MicorosoftHeadphonesItem(VirtualstoreModElements instance) {
-		super(instance, 6);
+	public GiftCardItem(VirtualstoreModElements instance) {
+		super(instance, 5);
 
 	}
 
@@ -21,7 +21,7 @@ public class MicorosoftHeadphonesItem extends VirtualstoreModElements.ModElement
 
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("micorosoft_headphones");
+			setRegistryName("gift_card");
 		}
 
 		@Override
@@ -37,12 +37,6 @@ public class MicorosoftHeadphonesItem extends VirtualstoreModElements.ModElement
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
-		}
-
-		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("headphones"));
 		}
 
 	}

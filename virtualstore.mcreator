@@ -11,6 +11,15 @@
       "registry_name": "microsoft_badge"
     },
     {
+      "name": "GiftCard",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gift_card"
+    },
+    {
       "name": "Xboxone",
       "type": "item",
       "sortid": 5,
@@ -27,60 +36,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "windows_11"
-    },
-    {
-      "name": "MicrosoftSurfaceAd",
-      "type": "painting",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "microsoft_surface_ad"
-    },
-    {
-      "name": "Windows11Desk",
-      "type": "painting",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "windows_11_desk"
-    },
-    {
-      "name": "XboxScreen",
-      "type": "painting",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "xbox_screen"
-    },
-    {
-      "name": "Office365",
-      "type": "painting",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "office_365"
-    },
-    {
-      "name": "Office365Ad",
-      "type": "painting",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "office_365_ad"
-    },
-    {
-      "name": "Office365Cloud",
-      "type": "painting",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "office_365_cloud"
     },
     {
       "name": "MicrosoftKeyboard",
@@ -131,6 +86,60 @@
       "registry_name": "microsoft_mice"
     },
     {
+      "name": "Surfacepen",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "surfacepen"
+    },
+    {
+      "name": "MicrosoftSurfaceAd",
+      "type": "painting",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_surface_ad"
+    },
+    {
+      "name": "Windows11Desk",
+      "type": "painting",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "windows_11_desk"
+    },
+    {
+      "name": "XboxScreen",
+      "type": "painting",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xbox_screen"
+    },
+    {
+      "name": "Office365",
+      "type": "painting",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "office_365"
+    },
+    {
+      "name": "Office365Ad",
+      "type": "painting",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "office_365_ad"
+    },
+    {
       "name": "MicorosoftHeadphones",
       "type": "item",
       "sortid": 6,
@@ -140,13 +149,13 @@
       "registry_name": "micorosoft_headphones"
     },
     {
-      "name": "Surfacepen",
-      "type": "item",
-      "sortid": 7,
+      "name": "Office365Cloud",
+      "type": "painting",
+      "sortid": 10,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
-      "registry_name": "surfacepen"
+      "registry_name": "office_365_cloud"
     },
     {
       "name": "Inventory",
@@ -208,11 +217,9 @@
   "language_map": {
     "en_us": {
       "item.virtualstore.microsoft_badge": "Microsoft Badge",
-      "item.virtualstore.surfacepen": "Surfacepen",
-      "item.virtualstore.xboxone": "Xboxone",
-      "item.virtualstore.micorosoft_headphones": "Micorosoft Headphones",
-      "item.virtualstore.microsoft_keyboard": "Microsoft Keyboard",
+      "entity.virtualstore.microsoft_steve": "Microsoft Steve",
       "item.virtualstore.surface_laptop": "Surface Laptop",
+      "item.virtualstore.gift_card": "Gift Card",
       "item.virtualstore.m_365_key": "M 3 6 5 Key",
       "item.virtualstore.xboxpass": "Xboxpass",
       "item.virtualstore.microsoft_mice": "Microsoft Mice",

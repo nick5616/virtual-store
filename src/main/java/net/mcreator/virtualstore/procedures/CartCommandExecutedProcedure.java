@@ -1,28 +1,7 @@
 package net.mcreator.virtualstore.procedures;
 
-import net.minecraftforge.fml.server.ServerLifecycleHooks;
-
-import net.minecraft.world.IWorld;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ChatType;
-import net.minecraft.util.Util;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.virtualstore.item.XboxpassItem;
-import net.mcreator.virtualstore.item.XboxoneItem;
-import net.mcreator.virtualstore.item.SurfacepenItem;
-import net.mcreator.virtualstore.item.MicrosoftMiceItem;
-import net.mcreator.virtualstore.item.MicrosoftKeyboardItem;
-import net.mcreator.virtualstore.item.MicrosoftBadgeItem;
-import net.mcreator.virtualstore.item.MicorosoftHeadphonesItem;
-import net.mcreator.virtualstore.VirtualstoreMod;
-
-import java.util.Map;
-
 public class CartCommandExecutedProcedure {
+
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
@@ -34,8 +13,10 @@ public class CartCommandExecutedProcedure {
 				VirtualstoreMod.LOGGER.warn("Failed to load dependency world for procedure CartCommandExecuted!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
 		IWorld world = (IWorld) dependencies.get("world");
+
 		if (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(MicrosoftBadgeItem.block)) : false)) {
 			if (!world.isRemote()) {
 				MinecraftServer mcserv = ServerLifecycleHooks.getCurrentServer();
@@ -106,4 +87,5 @@ public class CartCommandExecutedProcedure {
 			}
 		}
 	}
+
 }
