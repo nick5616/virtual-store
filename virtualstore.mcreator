@@ -14,7 +14,7 @@
       "name": "Xboxone",
       "type": "item",
       "sortid": 5,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "xboxone"
@@ -32,7 +32,7 @@
       "name": "MicrosoftSurfaceAd",
       "type": "painting",
       "sortid": 7,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "microsoft_surface_ad"
@@ -41,7 +41,7 @@
       "name": "Windows11Desk",
       "type": "painting",
       "sortid": 9,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "windows_11_desk"
@@ -59,7 +59,7 @@
       "name": "Office365",
       "type": "painting",
       "sortid": 8,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "office_365"
@@ -68,7 +68,7 @@
       "name": "Office365Ad",
       "type": "painting",
       "sortid": 11,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "office_365_ad"
@@ -77,7 +77,7 @@
       "name": "Office365Cloud",
       "type": "painting",
       "sortid": 10,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "office_365_cloud"
@@ -95,7 +95,7 @@
       "name": "Xboxpass",
       "type": "item",
       "sortid": 9,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "xboxpass"
@@ -125,7 +125,7 @@
       "name": "MicrosoftMice",
       "type": "item",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "microsoft_mice"
@@ -134,7 +134,7 @@
       "name": "MicorosoftHeadphones",
       "type": "item",
       "sortid": 6,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "micorosoft_headphones"
@@ -143,7 +143,7 @@
       "name": "Surfacepen",
       "type": "item",
       "sortid": 7,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "surfacepen"
@@ -152,7 +152,7 @@
       "name": "Inventory",
       "type": "command",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "inventory"
