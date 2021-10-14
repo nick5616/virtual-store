@@ -14,7 +14,7 @@
       "name": "Xboxone",
       "type": "item",
       "sortid": 5,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "xboxone"
@@ -86,7 +86,7 @@
       "name": "MicrosoftKeyboard",
       "type": "item",
       "sortid": 5,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "microsoft_keyboard"
@@ -125,7 +125,7 @@
       "name": "MicrosoftMice",
       "type": "item",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "microsoft_mice"
@@ -134,7 +134,7 @@
       "name": "MicorosoftHeadphones",
       "type": "item",
       "sortid": 6,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "micorosoft_headphones"
@@ -143,7 +143,7 @@
       "name": "Surfacepen",
       "type": "item",
       "sortid": 7,
-      "compiles": true,
+      "compiles": false,
       "locked_code": true,
       "ids": {},
       "registry_name": "surfacepen"
@@ -152,7 +152,7 @@
       "name": "Inventory",
       "type": "command",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "inventory"
@@ -170,7 +170,7 @@
       "name": "WindowsKey",
       "type": "item",
       "sortid": 12,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "windows_key"
@@ -188,7 +188,7 @@
       "name": "M365Key",
       "type": "item",
       "sortid": 14,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "m_365_key"
@@ -197,7 +197,7 @@
       "name": "SurfaceLaptop",
       "type": "item",
       "sortid": 15,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "surface_laptop"
@@ -206,7 +206,7 @@
       "name": "GiftCard",
       "type": "item",
       "sortid": 5,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "gift_card"
