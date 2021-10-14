@@ -36,12 +36,30 @@ public class CartCommandExecutedProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		IWorld world = (IWorld) dependencies.get("world");
+		if (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(MicrosoftBadgeItem.block)) : false)) {
+			if (!world.isRemote()) {
+				MinecraftServer mcserv = ServerLifecycleHooks.getCurrentServer();
+				if (mcserv != null)
+					mcserv.getPlayerList().func_232641_a_(
+							new StringTextComponent((new ItemStack(MicrosoftBadgeItem.block).getDisplayName().getString())), ChatType.SYSTEM,
+							Util.DUMMY_UUID);
+			}
+		}
 		if (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(XboxoneItem.block)) : false)) {
 			if (!world.isRemote()) {
 				MinecraftServer mcserv = ServerLifecycleHooks.getCurrentServer();
 				if (mcserv != null)
 					mcserv.getPlayerList().func_232641_a_(new StringTextComponent((new ItemStack(XboxoneItem.block).getDisplayName().getString())),
 							ChatType.SYSTEM, Util.DUMMY_UUID);
+			}
+		}
+		if (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(MicrosoftKeyboardItem.block)) : false)) {
+			if (!world.isRemote()) {
+				MinecraftServer mcserv = ServerLifecycleHooks.getCurrentServer();
+				if (mcserv != null)
+					mcserv.getPlayerList().func_232641_a_(
+							new StringTextComponent((new ItemStack(MicrosoftKeyboardItem.block).getDisplayName().getString())), ChatType.SYSTEM,
+							Util.DUMMY_UUID);
 			}
 		}
 		if (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(XboxpassItem.block)) : false)) {
@@ -52,30 +70,12 @@ public class CartCommandExecutedProcedure {
 							ChatType.SYSTEM, Util.DUMMY_UUID);
 			}
 		}
-		if (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(MicrosoftBadgeItem.block)) : false)) {
-			if (!world.isRemote()) {
-				MinecraftServer mcserv = ServerLifecycleHooks.getCurrentServer();
-				if (mcserv != null)
-					mcserv.getPlayerList().func_232641_a_(
-							new StringTextComponent((new ItemStack(MicrosoftBadgeItem.block).getDisplayName().getString())), ChatType.SYSTEM,
-							Util.DUMMY_UUID);
-			}
-		}
 		if (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(MicrosoftMiceItem.block)) : false)) {
 			if (!world.isRemote()) {
 				MinecraftServer mcserv = ServerLifecycleHooks.getCurrentServer();
 				if (mcserv != null)
 					mcserv.getPlayerList().func_232641_a_(
 							new StringTextComponent((new ItemStack(MicrosoftMiceItem.block).getDisplayName().getString())), ChatType.SYSTEM,
-							Util.DUMMY_UUID);
-			}
-		}
-		if (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(MicrosoftKeyboardItem.block)) : false)) {
-			if (!world.isRemote()) {
-				MinecraftServer mcserv = ServerLifecycleHooks.getCurrentServer();
-				if (mcserv != null)
-					mcserv.getPlayerList().func_232641_a_(
-							new StringTextComponent((new ItemStack(MicrosoftKeyboardItem.block).getDisplayName().getString())), ChatType.SYSTEM,
 							Util.DUMMY_UUID);
 			}
 		}
