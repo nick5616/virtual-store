@@ -1,16 +1,19 @@
 package net.mcreator.virtualstore.procedures;
 
-public class MschatCommandExecutedProcedure {
+import net.minecraft.entity.Entity;
 
+import net.mcreator.virtualstore.VirtualstoreMod;
+
+import java.util.Map;
+
+public class MschatCommandExecutedProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
 				VirtualstoreMod.LOGGER.warn("Failed to load dependency entity for procedure MschatCommandExecuted!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		String messageparams = (String) dependencies.get("messageparams");
 		if (messageparams.toLowerCase().contains("xbox")) {
 			{
@@ -30,5 +33,4 @@ public class MschatCommandExecutedProcedure {
 			}
 		}
 	}
-
 }
