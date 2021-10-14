@@ -1,7 +1,4 @@
 {
   "item.virtualstore.microsoft_badge": "Microsoft Badge",
-  "entity.virtualstore.microsoft_steve": "Microsoft Steve",
-  "item.virtualstore.xboxone": "Xboxone",
-  "item.virtualstore.surface_laptop": "Surface Laptop",
-  "item.virtualstore.microsoft_steve_spawn_egg": "Microsoft Steve Spawn Egg"
+  "item.virtualstore.surface_laptop": "Surface Laptop"
 }
