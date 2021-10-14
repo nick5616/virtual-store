@@ -1,277 +1,272 @@
 {
-	"id_map": {},
-	"mod_elements": [
-		{
-			"name": "MicrosoftBadge",
-			"type": "item",
-			"sortid": 1,
-			"compiles": true,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "microsoft_badge"
-		},
-		{
-			"name": "Xboxone",
-			"type": "item",
-			"sortid": 5,
-			"compiles": false,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "xboxone"
-		},
-		{
-			"name": "Windows11",
-			"type": "painting",
-			"sortid": 5,
-			"compiles": true,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "windows_11"
-		},
-		{
-			"name": "MicrosoftSurfaceAd",
-			"type": "painting",
-			"sortid": 7,
-			"compiles": true,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "microsoft_surface_ad"
-		},
-		{
-			"name": "Windows11Desk",
-			"type": "painting",
-			"sortid": 9,
-			"compiles": true,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "windows_11_desk"
-		},
-		{
-			"name": "XboxScreen",
-			"type": "painting",
-			"sortid": 6,
-			"compiles": true,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "xbox_screen"
-		},
-		{
-			"name": "Office365",
-			"type": "painting",
-			"sortid": 8,
-			"compiles": true,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "office_365"
-		},
-		{
-			"name": "Office365Ad",
-			"type": "painting",
-			"sortid": 11,
-			"compiles": true,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "office_365_ad"
-		},
-		{
-			"name": "Office365Cloud",
-			"type": "painting",
-			"sortid": 10,
-			"compiles": true,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "office_365_cloud"
-		},
-		{
-			"name": "MicrosoftKeyboard",
-			"type": "item",
-			"sortid": 5,
-			"compiles": false,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "microsoft_keyboard"
-		},
-		{
-			"name": "Xboxpass",
-			"type": "item",
-			"sortid": 9,
-			"compiles": true,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "xboxpass"
-		},
-		{
-			"name": "CartCommandExecuted",
-			"type": "procedure",
-			"sortid": 3,
-			"compiles": true,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "cart_command_executed",
-			"metadata": {
-				"dependencies": [
-					{
-						"name": "entity",
-						"type": "entity"
-					},
-					{
-						"name": "world",
-						"type": "world"
-					}
-				]
-			}
-		},
-		{
-			"name": "MicrosoftMice",
-			"type": "item",
-			"sortid": 4,
-			"compiles": false,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "microsoft_mice"
-		},
-		{
-			"name": "MicorosoftHeadphones",
-			"type": "item",
-			"sortid": 6,
-			"compiles": false,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "micorosoft_headphones"
-		},
-		{
-			"name": "Surfacepen",
-			"type": "item",
-			"sortid": 7,
-			"compiles": false,
-			"locked_code": true,
-			"ids": {},
-			"registry_name": "surfacepen"
-		},
-		{
-			"name": "Inventory",
-			"type": "command",
-			"sortid": 2,
-			"compiles": false,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "inventory"
-		},
-		{
-			"name": "Cart",
-			"type": "command",
-			"sortid": 3,
-			"compiles": true,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "cart"
-		},
-		{
-			"name": "WindowsKey",
-			"type": "item",
-			"sortid": 12,
-			"compiles": false,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "windows_key"
-		},
-		{
-			"name": "MicrosoftBanner",
-			"type": "painting",
-			"sortid": 13,
-			"compiles": true,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "microsoft_banner"
-		},
-		{
-			"name": "M365Key",
-			"type": "item",
-			"sortid": 14,
-			"compiles": false,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "m_365_key"
-		},
-		{
-			"name": "SurfaceLaptop",
-			"type": "item",
-			"sortid": 15,
-			"compiles": false,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "surface_laptop"
-		},
-		{
-			"name": "GiftCard",
-			"type": "item",
-			"sortid": 5,
-			"compiles": false,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "gift_card"
-		},
-		{
-			"name": "MschatCommandExecuted",
-			"type": "procedure",
-			"sortid": 7,
-			"compiles": true,
-			"locked_code": false,
-			"ids": {},
-			"registry_name": "mschat_command_executed",
-			"metadata": {
-				"dependencies": [
-					{
-						"name": "entity",
-						"type": "entity"
-					}
-				]
-			}
-		},
-		{
-			"name": "Mschat",
-			"type": "command",
-			"sortid": 7,
-			"compiles": true,
-			"locked_code": true,
-			"ids": {},
-			"registry_name": "mschat"
-		}
-	],
-	"variable_elements": [],
-	"sound_elements": [],
-	"language_map": {
-		"en_us": {
-			"item.virtualstore.microsoft_badge": "Microsoft Badge",
-			"entity.virtualstore.microsoft_steve": "Microsoft Steve",
-			"item.virtualstore.surface_laptop": "Surface Laptop",
-			"item.virtualstore.m_365_key": "M 3 6 5 Key",
-			"item.virtualstore.gift_card": "Gift Card",
-			"item.virtualstore.xboxpass": "Xboxpass",
-			"item.virtualstore.microsoft_mice": "Microsoft Mice",
-			"item.virtualstore.windows_key": "Windows Key"
-		}
-	},
-	"foldersRoot": {
-		"name": "~",
-		"children": []
-	},
-	"workspaceSettings": {
-		"modid": "virtualstore",
-		"modName": "virtual-store",
-		"version": "1.0.0",
-		"author": "nbelovoskey, MCreator",
-		"websiteURL": "https://mcreator.net",
-		"license": "Academic Free License v3.0",
-		"disableForgeVersionCheck": true,
-		"serverSideOnly": false,
-		"requiredMods": [],
-		"dependencies": [],
-		"dependants": [],
-		"mcreatorDependencies": [],
-		"currentGenerator": "forge-1.16.5",
-		"modElementsPackage": "net.mcreator.virtualstore",
-		"lockBaseModFiles": false
-	},
-	"mcreatorVersion": 202100236710
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "MicrosoftBadge",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_badge"
+    },
+    {
+      "name": "Xboxone",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xboxone"
+    },
+    {
+      "name": "Windows11",
+      "type": "painting",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "windows_11"
+    },
+    {
+      "name": "MicrosoftSurfaceAd",
+      "type": "painting",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_surface_ad"
+    },
+    {
+      "name": "Windows11Desk",
+      "type": "painting",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "windows_11_desk"
+    },
+    {
+      "name": "XboxScreen",
+      "type": "painting",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xbox_screen"
+    },
+    {
+      "name": "Office365",
+      "type": "painting",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "office_365"
+    },
+    {
+      "name": "Office365Ad",
+      "type": "painting",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "office_365_ad"
+    },
+    {
+      "name": "Office365Cloud",
+      "type": "painting",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "office_365_cloud"
+    },
+    {
+      "name": "MicrosoftKeyboard",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_keyboard"
+    },
+    {
+      "name": "Xboxpass",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xboxpass"
+    },
+    {
+      "name": "CartCommandExecuted",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cart_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MicrosoftMice",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_mice"
+    },
+    {
+      "name": "MicorosoftHeadphones",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "micorosoft_headphones"
+    },
+    {
+      "name": "Inventory",
+      "type": "command",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inventory"
+    },
+    {
+      "name": "Cart",
+      "type": "command",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cart"
+    },
+    {
+      "name": "WindowsKey",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "windows_key"
+    },
+    {
+      "name": "MicrosoftBanner",
+      "type": "painting",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_banner"
+    },
+    {
+      "name": "M365Key",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "m_365_key"
+    },
+    {
+      "name": "SurfaceLaptop",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "surface_laptop"
+    },
+    {
+      "name": "GiftCard",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gift_card"
+    },
+    {
+      "name": "MschatCommandExecuted",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mschat_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Surfacepen",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "surfacepen"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.virtualstore.microsoft_badge": "Microsoft Badge",
+      "item.virtualstore.xboxone": "Xboxone",
+      "item.virtualstore.micorosoft_headphones": "Micorosoft Headphones",
+      "item.virtualstore.m_365_key": "M 3 6 5 Key",
+      "item.virtualstore.xboxpass": "Xboxpass",
+      "item.virtualstore.microsoft_mice": "Microsoft Mice",
+      "item.virtualstore.windows_key": "Windows Key",
+      "entity.virtualstore.microsoft_steve": "Microsoft Steve",
+      "item.virtualstore.surfacepen": "Surfacepen",
+      "item.virtualstore.microsoft_keyboard": "Microsoft Keyboard",
+      "item.virtualstore.surface_laptop": "Surface Laptop",
+      "item.virtualstore.gift_card": "Gift Card"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "virtualstore",
+    "modName": "virtual-store",
+    "version": "1.0.0",
+    "author": "nbelovoskey, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.virtualstore",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
 }
