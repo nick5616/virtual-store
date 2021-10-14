@@ -80,6 +80,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "surfacepen"
+    },
+    {
+      "name": "Xboxone",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xboxone"
+    },
+    {
+      "name": "Xboxpass",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xboxpass"
     }
   ],
   "variable_elements": [],
@@ -89,7 +107,9 @@
       "item.virtualstore.microsoft_badge": "Microsoft Badge",
       "item.virtualstore.surfacepen": "Surfacepen",
       "item.virtualstore.micorosoft_headphones": "Micorosoft Headphones",
+      "item.virtualstore.xboxone": "Xboxone",
       "item.virtualstore.microsoft_keyboard": "Microsoft Keyboard",
+      "item.virtualstore.xboxpass": "Xboxpass",
       "item.virtualstore.microsoft_mice": "Microsoft Mice"
     }
   },
