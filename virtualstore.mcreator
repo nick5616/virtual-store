@@ -219,15 +219,15 @@
         ]
       }
     },
-	{
-		"name": "Mschat",
-		"type": "command",
-		"sortid": 7,
-		"compiles": true,
-		"locked_code": true,
-		"ids": {},
-		"registry_name": "mschat"
-	},
+    {
+      "name": "Mschat",
+      "type": "command",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "mschat"
+    },
     {
       "name": "GiftCard",
       "type": "item",

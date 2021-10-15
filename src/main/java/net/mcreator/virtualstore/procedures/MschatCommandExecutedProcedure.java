@@ -16,7 +16,7 @@ public class MschatCommandExecutedProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		String messageparams = (String) dependencies.get("messageparams");
-		String id = MschatCommand.sendmessagetobot(messageparams);
+		String id = MschatCommand.getbotreply(messageparams);
 		{
 			Entity _ent = entity;
 			if (!_ent.world.isRemote && _ent.world.getServer() != null) {

@@ -35,18 +35,29 @@ import com.google.gson.JsonParser;
 import com.google.gson.JsonParseException;
 import com.google.gson.JsonArray;
 
+import com.mojang.brigadier.arguments.ArgumentType;
+import com.mojang.brigadier.builder.ArgumentBuilder;
+import com.mojang.brigadier.builder.LiteralArgumentBuilder;
+import com.mojang.brigadier.builder.RequiredArgumentBuilder;
+
 @Mod.EventBusSubscriber
 public class MschatCommand {
 	@SubscribeEvent
 	public static void registerCommands(RegisterCommandsEvent event) {
-		event.getDispatcher()
-				.register(LiteralArgumentBuilder.<CommandSource>literal("mschat")
-						.then(LiteralArgumentBuilder.<CommandSource>literal("xbox").executes(MschatCommand::execute))
-						.then(LiteralArgumentBuilder.<CommandSource>literal("surface").executes(MschatCommand::execute))
-						.then(Commands.argument("arguments", StringArgumentType.greedyString()).executes(MschatCommand::execute))
-						.executes(MschatCommand::execute));
-	}
+		ArgumentBuilder args = argument("message", StringArgumentType.greedyString()).executes(MschatCommand::execute);
+		ArgumentBuilder cost = literal("cost").then(args).executes(MschatCommand::execute);
+		ArgumentBuilder xbox = literal("xbox").then(cost).then(args).executes(MschatCommand::execute);
+		ArgumentBuilder surface = literal("surface").then(cost).then(args).executes(MschatCommand::execute);
+		LiteralArgumentBuilder mschat = (LiteralArgumentBuilder)
+			literal("mschat")
+			.then(xbox)
+			.then(surface)
+			.then(args)
+			.executes(MschatCommand::execute);
 
+		event.getDispatcher().register(mschat);
+	}
+	
 	private static int execute(CommandContext<CommandSource> ctx) {
 		ServerWorld world = ctx.getSource().getWorld();
 		double x = ctx.getSource().getPos().getX();
@@ -72,16 +83,21 @@ public class MschatCommand {
 		return 0;
 	}
 
-	public static String sendmessagetobot(String message){
+	public static LiteralArgumentBuilder<CommandSource> literal(String name) {
+        return LiteralArgumentBuilder.<CommandSource>literal(name);
+    }
+
+    public static <T> RequiredArgumentBuilder<CommandSource, T> argument(String name, ArgumentType<T> type) {
+        return RequiredArgumentBuilder.<CommandSource, T>argument(name, type);
+    }
+
+	public static String getbotreply(String message){
 		try{
-			String auth = "Bearer 3xPwe7lPojg.j6eZmSkXZejFcqSHJsxpc-d4ReFbod4_K_ZViOXraSQ";
-			String convId = startconversation();
-			String jsonInputString = "{\"locale\":\"en-EN\",\"type\":\"message\",\"from\":{\"id\":\"dev\"},\"text\":\""+ message +"\"}";
+			String jsonInputString = "{\"message\":\""+ message +"\"}";
 			byte[] input = jsonInputString.getBytes("utf-8");
-			URL url = new URL("https://directline.botframework.com/v3/directline/conversations/"+convId+"/activities");
+			URL url = new URL("https://minecraft-mschat-bot.azurewebsites.net/api/get-bot-reply");
 			HttpURLConnection conn = (HttpURLConnection)url.openConnection();
 	        conn.setRequestMethod("POST");
-	        conn.setRequestProperty("Authorization", auth);
 	        conn.setRequestProperty("Content-Type","application/json");
 	        conn.setRequestProperty("Content-Length", "" + input.length);
 	        conn.setDoOutput(true);
@@ -90,63 +106,12 @@ public class MschatCommand {
 			StringBuilder sb = new StringBuilder();
 	        for (int c; (c = in.read()) >= 0;)
 	            sb.append((char)c);
-	        JsonObject jsonObject = new JsonParser().parse(sb.toString()).getAsJsonObject();
-	        String response = getbotresponse(convId);
-	        return response;
+	        return sb.toString();
 		}
-		catch (Exception ex) {
-			VirtualstoreMod.LOGGER.info("EX:"+ex.getMessage());
-			return ex.getMessage();}
-	}
-
-	private static String getbotresponse(String convId){
-		try{
-			String auth = "Bearer 3xPwe7lPojg.j6eZmSkXZejFcqSHJsxpc-d4ReFbod4_K_ZViOXraSQ";
-			URL url = new URL("https://directline.botframework.com/v3/directline/conversations/"+convId+"/activities");
-			HttpURLConnection conn = (HttpURLConnection)url.openConnection();
-	        conn.setRequestMethod("GET");
-	        conn.setRequestProperty("Authorization", auth);
-	        Reader in = new BufferedReader(new InputStreamReader(conn.getInputStream(), "UTF-8"));
-			StringBuilder sb = new StringBuilder();
-	        for (int c; (c = in.read()) >= 0;)
-	            sb.append((char)c);
-	        
-	        VirtualstoreMod.LOGGER.info(sb.toString());
-	        
-	        JsonArray activities = new JsonParser().parse(sb.toString()).getAsJsonObject().getAsJsonArray("activities");
-	        
-	        int last = activities.size()-1;
-	        JsonObject obj = activities.get(last).getAsJsonObject();
-	        String response = obj.get("text").getAsString();
-	        return response;
-        }
-		catch (Exception ex) {
-			VirtualstoreMod.LOGGER.info("EX:"+ex.getMessage());
-			return ex.getMessage();}
-	}
-
-	private static String startconversation(){
-		try
+		catch (Exception ex) 
 		{
-			String auth = "Bearer 3xPwe7lPojg.j6eZmSkXZejFcqSHJsxpc-d4ReFbod4_K_ZViOXraSQ";
-	        URL url = new URL("https://directline.botframework.com/v3/directline/conversations");
-			HttpURLConnection conn = (HttpURLConnection)url.openConnection();
-	        conn.setRequestMethod("POST");
-	        conn.setRequestProperty("Authorization", auth);
-	        conn.setRequestProperty("Content-Length", "0");
-	        conn.setDoOutput(true);
-	        conn.getOutputStream();
-	        
-            Reader in = new BufferedReader(new InputStreamReader(conn.getInputStream(), "UTF-8"));
-			StringBuilder sb = new StringBuilder();
-	        for (int c; (c = in.read()) >= 0;)
-	            sb.append((char)c);
-	        JsonObject jsonObject = new JsonParser().parse(sb.toString()).getAsJsonObject();
-	        
-	        String response = jsonObject.get("conversationId").getAsString();
-	        
-	        return response;
+			VirtualstoreMod.LOGGER.info("EX:"+ex.getMessage());
+			return ex.getMessage();
 		}
-		catch (Exception ex) {return ex.getMessage();}
 	}
 }
