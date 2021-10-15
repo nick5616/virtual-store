@@ -227,6 +227,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gift_card"
+    },
+    {
+      "name": "Mschat",
+      "type": "command",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "mschat"
+    },
+    {
+      "name": "MicrosoftSteve",
+      "type": "livingentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "microsoft_steve"
     }
   ],
   "variable_elements": [],
@@ -244,6 +262,7 @@
       "item.virtualstore.surfacepen": "Surfacepen",
       "item.virtualstore.microsoft_keyboard": "Microsoft Keyboard",
       "item.virtualstore.surface_laptop": "Surface Laptop",
+      "item.virtualstore.microsoft_steve_spawn_egg": "Microsoft Steve Spawn Egg",
       "item.virtualstore.gift_card": "Gift Card"
     }
   },
